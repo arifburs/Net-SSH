@@ -1,6 +1,6 @@
 # Net-ssh
 <p align="center">
-<h1 align="center"/>Net ssh</h1>
+<h1 align="center"/>Net SSH</h1>
 <h6 align="center">SSH User Management<h6>
 </p>
 
@@ -47,13 +47,13 @@
 برای نصب دستور زیر را وارد کنید<br>
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-ssh/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-SSH/main/install.sh --ipv4)
 ```
 
 ## فعال سازی SSL
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-ssh/main/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-SSH/main/ssl.sh --ipv4)
 ```
 
 # بلاک کردن آی پی های ایران
@@ -61,7 +61,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-ssh/main/ssl.sh -
 جهت بلاک کردن آی پی های ایران از دستور زیر استفاده کنید
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-ssh/main/block-ir-ip.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/arifburs/Net-SSH/main/block-ir-ip.sh --ipv4)
 ```
 
 
