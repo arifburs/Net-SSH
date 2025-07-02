@@ -1,11 +1,11 @@
-# Net-ssh
+# Net-SSH
 <p align="center">
 <h1 align="center"/>Net SSH</h1>
 <h6 align="center">SSH User Management<h6>
 </p>
 
 <p align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/arifburs/Net-ssh">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/arifburs/Net-SSH">
 </p>
 
 ## معرفی <br>
