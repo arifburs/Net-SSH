@@ -45,7 +45,7 @@ userInputs(){
 }
 
 getAppVersion(){
-    version=$(sudo curl -Ls "https://api.github.com/repos/arif.burs/Net-SSH/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+    version=$(sudo curl -Ls "https://api.github.com/repos/arifburs/Net-SSH/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
     echo $version;
 }
 
@@ -354,7 +354,7 @@ configDatabase(){
     # Dump and remove the old database
     if mysql -u root -e "USE netSSH" 2>/dev/null; then
         # Dump and restore the old database to the new database
-        mysqldump -u root --force netSSH | mysql -u root $dbName
+        mysqldump -u root --force NetSSH | mysql -u root $dbName
         echo "Data has been dumped from 'netSSH' to '$dbName'."
 
         # Remove the old database
