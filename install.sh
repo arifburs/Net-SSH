@@ -45,7 +45,7 @@ userInputs(){
 }
 
 getAppVersion(){
-    version=$(sudo curl -Ls "https://api.github.com/repos/arifburs/Net-SSH/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+    version=$(sudo curl -Ls "https://api.github.com/repos/ipmartnetwork/iPmart-SSH/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
     echo $version;
 }
 
